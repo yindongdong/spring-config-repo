@@ -1,0 +1,9 @@
+#kafka配置
+
+spring:
+  kafka:
+    bootstrap-servers: 192.168.253.110:9092,192.168.253.111:9092
+    consumer:
+      group-id: foo
+      auto-offset-reset: earliest
+
